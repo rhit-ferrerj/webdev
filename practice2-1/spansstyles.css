@@ -1,0 +1,20 @@
+.bluebox {
+    background-color: #0000FF; /*blue*/
+    color: #FFFFFF; /*white pass all */
+    height:100px;
+    width:auto;
+}
+
+.greenbox {
+    background-color: #00FA9A; /*MediumSpringGreen*/
+    color: #000000;/* Default Font color black: pass all*/
+    height:100px;
+    width:auto;
+}
+
+.yellowbox {
+    background-color: #FFFF00; /*yellow*/
+    color: #000000;/* Default Font color black: pass all*/
+    height:100px;
+    width:auto;
+}
