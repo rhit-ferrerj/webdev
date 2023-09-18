@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Practice 4 - Bootstrap</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css'
+    integrity='sha512-AZtJoEn5SfSZimv10x5NMO2gaZCdoU8nxtHJK8O4SbKNlQeb1ggkvf0b0QixuuXIjX3Tp5jzBbTWajki81Vl2g=='
+    crossorigin='anonymous' />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Practice 3</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Roadtrip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">before</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">coming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">here</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4" id="collaps">
+    <h2>Info Collapsible</h2>
+    <a href="#demo" class="btn btn-secondary" data-bs-toggle="collapse">See more</a>
+    <div id="demo" class="collapse">
+      I thought I might as well share some experiences I made on a Roadtrip before coming to Rose,
+      instead of only CTRL-C/V-ing W3 code in here.
+    </div>
+  </div>
+  
+  
+  <div class="container my-5" id="carouselImgs">
+    <div class="carousel-container" style="width: 40%; margin: 0 auto;">
+      <div id="imcarousel" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/GGB.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>San Francisco</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2633.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Manresa Uplands</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2641.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Monastery Beach</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2650.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Morro Bay</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2678.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>UCSB</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2705.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Malibu</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2743.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Santa Monica</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2757.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Santa Monica Pier</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/IMG_2902.JPEG" alt="..." class="d-block w-100">
+            <div class="carousel-caption">
+              <p>Hermosa Beach</p>
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#imcarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imcarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container my-5" id="cards">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="images/ApplePark.JPEG" class="card-img-top" alt="Image 1">
+          <div class="card-body text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+              See Location
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="images/GooglePlex.JPEG" class="card-img-top" alt="Image 2">
+          <div class="card-body text-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+              See Location
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Apple Park</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">GooglePlex</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+<div class="container my-5">
+  <div class="dropdown dropdown-menu-end">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Go back to:
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#collaps">Collapsible</a></li>
+      <li><a class="dropdown-item" href="#carouselImgs">Carousel</a></li>
+      <li><a class="dropdown-item" href="#cards">Cards</a></li>
+    </ul>
+  </div>
+</div>
+
+  
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'
+    integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=='
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js'
+    integrity='sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=='
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js'
+    integrity='sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=='
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js'
+    integrity='sha512-rXm6RiYDlz+aZC/ht75tGzeAmCg4gVfBA6Be5s5uENSahiXkgwEy10J2Cc+dxUAW4lRRQYbS5pugMOqBrs8ksw=='
+    crossorigin='anonymous'></script>
+
+</body>
+
+</html>
