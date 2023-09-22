@@ -1,0 +1,63 @@
+.button-group{
+    text-align: center;
+}
+
+.buttom-group > {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#counterText {
+    color: #000;
+    font-family: consolas, arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#colorContainer {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+}
+
+#colorBox {
+    width: 200px;
+    height: 100px;
+    background-color: #800000;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+ 
+.navbar.bg-dark {
+    background-color: #800000 !important;
+}
+
+
+.btn.btn-dark {
+    background-color: #800000 !important;
+}
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+#blueButton {
+    background-color: #000080 !important;
+}
+#redButton {
+    background-color: #800000 !important;
+}
+#greenButton {
+    background-color: #008000 !important;
+}
+#purpleButton {
+    background-color: #800080 !important;
+}
