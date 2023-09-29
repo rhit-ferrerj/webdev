@@ -72,7 +72,7 @@ main = function() {
         }
         console.log(pattern);
     }
-}
+};
 
 
 main();
