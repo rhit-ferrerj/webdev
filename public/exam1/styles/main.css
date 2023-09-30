@@ -1,0 +1,35 @@
+p {
+    padding-top: 5vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#lowernav {
+    padding-top: 4vw;
+}
+
+.nav-img {
+    width: 5vw; 
+    height: 5vw; 
+    margin: 0 10px; 
+}
+
+.navbar {
+    box-shadow: none;
+    background-color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.card-header{
+    text-align: center;
+    font-weight: bold;
+    border:none;
+    background-color: #fff;
+}
